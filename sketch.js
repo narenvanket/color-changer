@@ -1,9 +1,9 @@
-
+ var ball;
 function setup() {
   createCanvas(400,400);
-  var ball;
+ 
   ball=createSprite(200,200,10,10)
-  ball.shapeColor("yellow)
+ 
 }
 
 
@@ -12,6 +12,7 @@ function setup() {
 function draw() 
 
 {
+  background("babyPink")
 
   if(keyIsDown(DOWN_ARROW))
   { 
